@@ -1,0 +1,28 @@
+#navbar {
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0.3rem;
+  margin: 0;
+  height: 80px;
+}
+
+#navbar ul li a {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+#training .items {
+  flex-direction: column;
+}
+
+#training .items .item {
+  width: 100%;
+}
+
+#projects .projects {
+  flex-direction: column;
+}
+
+#projects .projects .project {
+  width: 100%;
+}

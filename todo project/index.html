@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="todoForm">
+        <h2>Todo List</h2>
+        <input type="text" name="todoInput" id="todoInput" />
+        <button type="submit" id="addTodo">add todo</button>
+      </form>
+      <div id="todos">
+        <h2>Todos</h2>
+        <input type="text" name="todoSearch" id="todoSearch" />
+        <input type="button" id="deleteAll" value="delete all" />
+      </div>
+      <div id="todoList">
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
